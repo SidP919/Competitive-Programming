@@ -29,7 +29,7 @@ def triangle():
     
 # Now, change the values of below variables to decide what gets drawn:
 A = 5
-B = 15
+B = 5
 
 if (A>B):
     square()
@@ -40,6 +40,6 @@ elif (A<B):
 else:
     square()
     triangle()
-    print("Ah!! I couldn't decide so I drew both the square and triangle, but somehow it looks like a B:)")
+    print("Ah!! I couldn't decide so I drew both the square and triangle, \nbut somehow it looks like a B \ndoesn't it? :)")
 
 ############################################################################################################

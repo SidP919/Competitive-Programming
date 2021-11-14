@@ -2,18 +2,6 @@
 msg = "Hello World of Python"
 print(msg)
 
-msg2 = msg.capitalize()
-
-print(msg2)
-
-print(msg.__len__())
-
-print(msg.isdigit())
-
-print(msg.lower())
-
-print(msg.split())
-
 
 ################################################################################################
 
