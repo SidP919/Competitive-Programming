@@ -10,7 +10,7 @@ print()
 
 # Approach #1: BF(Brute Force):
 if n <= 1:
-    print(f"BF: n <= 2 : {n} is not a Prime number.")
+    print(f"BF: n <= 1 : {n} is not a Prime number.")
 elif n <= 3:
     print(f"BF: n <= 3 : {n} is a Prime number.")
 else:
@@ -35,7 +35,7 @@ print()
     # this means, we don't need to loop till n-1 rather we can just loop till n**(0.5)
 n2=int(n**0.5) + 1
 if n <= 1:
-    print(f"BA: n <= 2 : {n} is not a Prime number.")
+    print(f"BA: n <= 1 : {n} is not a Prime number.")
 elif n <= 3:
     print(f"BA: n <= 3 : {n} is a Prime number.")
 else:
